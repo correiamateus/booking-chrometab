@@ -1,0 +1,90 @@
+body {
+	background: url('https://r.bstatic.com/data/explorer_city/2400x1600/236/2363.jpg') center top #333;
+	background-size: cover;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nt__wrapper {
+  position: relative;
+}
+.nt__city-title {
+  padding: 0 20px;
+  margin: 20px 0 0;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 115px;
+  font-weight: 100;
+}
+.nt__cards-wrapper {
+  list-style: none;
+  margin: 20px 20px 0 0;
+  padding: 0;
+  float: right;
+}
+.nt__cards-wrapper .nt__cards {
+  box-sizing: border-box;
+  background-clip: padding-box;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  border: 2px solid rgba(0,0,0,0);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.nt__cards-wrapper .nt__cards .nt__review-score {
+  font-size: 25px;
+  font-weight: 800;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 8px 8px 8px 0;
+  background: #003580;
+  color: #fff;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 9;
+}
+.nt__cards-wrapper .nt__cards .nt__title-link {
+  font: small/1.2 Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 12px!important;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+  text-decoration: none;
+}
+.nt__cards-wrapper .nt__cards .nt__title-link strong {
+  display: block;
+}
+.nt__cards-wrapper .nt__cards .nt__hotel-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+.nt__cards-wrapper .nt__cards:hover {
+  border-color: #fff;
+}
+
+/* etc */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
